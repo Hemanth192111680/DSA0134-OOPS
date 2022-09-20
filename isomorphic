@@ -1,0 +1,11 @@
+str1 = input("Enter the first String: ")
+ 
+str2 = input("Enter the second String: ")
+ 
+if sorted(str1) == sorted(str2):
+ 
+    print ("First and second strings are equal.")
+ 
+else:
+ 
+    print ("First and second strings are not the same.")
